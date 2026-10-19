@@ -1,7 +1,7 @@
 format PE64 NX GUI  6.0
 entry start
 
-include '../shared/macro_lib.inc'
+include '../shared/macro_lib_gpf.inc'
 
 ; import data
 section '.idata' import readable writeable
